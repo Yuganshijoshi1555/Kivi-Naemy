@@ -1,0 +1,206 @@
+html {
+    height: 100%;
+    width: 100%
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    align-items: center;
+    background-color: #dedede;
+  }
+  
+  h1 {
+    font-size: 80px;
+  }
+  
+  .heading {
+    font-size: 50px;
+  }
+  
+  .first-page {
+    background-color: #dedede;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  
+  .box p {
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .box h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-display: bold;
+  }
+  
+  .second-page {
+    background-color: #dedede;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .third-page {
+    background-color: #dedede;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .heading {
+    text-decoration: bold;
+    margin: 0px;
+    font-family: Inter, sans-serif;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    image-orientation: center;
+    display: block;
+  }
+  
+  
+  
+  
+  button {
+  
+    display: block;
+    margin: auto;
+  
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s;
+    box-shadow: 0 0 5px black,
+      0 0 25px black;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 5px black,
+      0 0 25px black, 0 0 50px black,
+      0 0 100px black, 0 0 200px black;
+  }
+  
+  .graph {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+  }
+  
+  .box {
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    /* Added "solid" to specify border style */
+    border-radius: 15px;
+    justify-content: center;
+    /* These properties are applicable to flex containers */
+    align-items: center;
+    box-shadow: -1px 0 10px #000000;
+    margin: 80px;
+    display: inline-block;
+    background-color: white;
+    /* Added background color to the boxes */
+    padding: 20px;
+    /* Added padding for spacing inside the box */
+  }
+  
+  .box p {
+    text-align: center;
+    /* Center-align the text */
+  }
+  
+  .box h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* Use "font-weight" instead of "font-display" */
+    margin-top: 0;
+    /* Remove default margin from h2 */
+  }
+  
+  .copy {
+    width: 50px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+  }
+  
+  .first-page h1,
+  .second-page h1,
+  .third-page h1,
+  .forth-page h1,
+  .fifth-page h1,
+  .sixth-page h1 {
+    font-family: Inter, sans-serif;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .first-page p,
+  .second-page p,
+  .third-page p,
+  .forth-page p,
+  fifth-page p,
+  .sixth-page p {
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .second-page,
+  .third-page,
+  .forth-page,
+  .fifth-page,
+  .sixth-page,
+  nav {
+    background-color: #dedede;
+    padding: 20px;
+  }
+  
+  .fifth-page h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* Use "font-weight" instead of "font-display" */
+    margin-top: 0;
+    /* Remove default margin from h2 */
+  }
+  
+  .sixth-page button {
+    padding: 5px;
+    margin: auto;
+  
+  }
+  
+  .fifth-page h1 {
+    padding: 5px;
+  }
+  
+  ul {
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+  }
